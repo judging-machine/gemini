@@ -6,16 +6,16 @@ relative_links:
 include:
   - README.md
   - LICENSE.md
-url: https://thingking-machine.github.io
+url: https://judging-machine.github.io
 baseurl: /gemini
 
-title: Thingking Machine
+title: Judging Machine
 description: This is a machine that reasons.
 
 machine:
-  name: Thingking-Machine
-  verb: Thingking
-  instructions_file: thingking.txt
+  name: Judging-Machine
+  verb: Judging
+  instructions_file: judging.txt
   token: gemini.txt
   apiUrl: https://generativelanguage.googleapis.com/v1beta/models/
 
@@ -33,8 +33,8 @@ lm:
 
 
 github_settings:
-  owner: thingking-machine
-  repo: thingking_machine
+  owner: judging-machine
+  repo: judging_machine
   file_name: machina.yaml
   branch: main
   token_file: github.txt
